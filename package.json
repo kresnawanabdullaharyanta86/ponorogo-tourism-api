@@ -1,0 +1,17 @@
+{
+  "name": "ponorogo-tourism-api",
+  "version": "1.0.0",
+  "description": "REST API wisata Ponorogo menggunakan Elysia, TypeScript, dan HTTPS",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
